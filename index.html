@@ -5,556 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="icon" href="https://npm.elemecdn.com/@liumingye/cdn2/favicon.ico"> -->
+  <link rel="shortcut icon" href="./favicon.ico">
   <meta name="keywords" content="MyFreeMP3,FreeMusic,无损音乐,免费音乐">
   <meta name="description" content="MYFREEMP3 -- Free Mp3 ">
   <title>Web music</title>
-  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/rules.css">
   <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/response.css">
 </head>
 
 <body>
   <!-- 测试 -->
-
-  <!-- 左边side -->
-  <side class="app_side">
-    <!-- head -->
-    <div class="side_head-user">
-      <!-- avatar -->
-      <div class="u_avatar">
-        <span class="text">M</span>
-      </div>
-      <!-- name -->
-      <div class="u_name">
-        <div class="text">
-          merlinT.
-        </div>
-        <div class="arrow-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-            class="icon arco-icon-right mx-right-arrow" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
-            <path d="m16 39.513 15.556-15.557L16 8.4"></path>
-          </svg>
-        </div>
-      </div>
-    </div>
-    <!-- body -->
-    <div class="side_body">
-      <div class="side_body-list">
-        <!-- menu[首页|探索|设置...] -->
-        <div class="list-menu">
-          <ul>
-            <li class="menu-index active">
-              <span class="index-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-home" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-2c8cca13="">
-                  <path d="M7 17 24 7l17 10v24H7V17Z"></path>
-                  <path d="M20 28h8v13h-8V28Z"></path>
-                </svg>
-              </span>
-              <span class="title">首页</span>
-            </li>
-
-            <li>
-              <span>
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-compass" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-2c8cca13="">
-                  <path d="M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6s18 8.059 18 18Z"></path>
-                  <path
-                    d="m21.177 21.183 10.108-4.717a.2.2 0 0 1 .266.265L26.834 26.84l-10.109 4.717a.2.2 0 0 1-.266-.266l4.718-10.108Z">
-                  </path>
-                </svg>
-              </span>
-              <span class="title">探索</span>
-            </li>
-
-            <li>
-              <span>
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-settings" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-2c8cca13="">
-                  <path
-                    d="M18.797 6.732A1 1 0 0 1 19.76 6h8.48a1 1 0 0 1 .964.732l1.285 4.628a1 1 0 0 0 1.213.7l4.651-1.2a1 1 0 0 1 1.116.468l4.24 7.344a1 1 0 0 1-.153 1.2L38.193 23.3a1 1 0 0 0 0 1.402l3.364 3.427a1 1 0 0 1 .153 1.2l-4.24 7.344a1 1 0 0 1-1.116.468l-4.65-1.2a1 1 0 0 0-1.214.7l-1.285 4.628a1 1 0 0 1-.964.732h-8.48a1 1 0 0 1-.963-.732L17.51 36.64a1 1 0 0 0-1.213-.7l-4.65 1.2a1 1 0 0 1-1.116-.468l-4.24-7.344a1 1 0 0 1 .153-1.2L9.809 24.7a1 1 0 0 0 0-1.402l-3.364-3.427a1 1 0 0 1-.153-1.2l4.24-7.344a1 1 0 0 1 1.116-.468l4.65 1.2a1 1 0 0 0 1.213-.7l1.286-4.628Z">
-                  </path>
-                  <path d="M30 24a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"></path>
-                </svg>
-              </span>
-              <span class="title">设置</span>
-            </li>
-
-            <li>
-              <span>
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-trophy" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-2c8cca13="">
-                  <path
-                    d="M24 33c-6.075 0-11-4.925-11-11m11 11c6.075 0 11-4.925 11-11M24 33v8M13 22V7h22v15m-22 0V9H7v7a6 6 0 0 0 6 6Zm22 0V9h6v7a6 6 0 0 1-6 6ZM12 41h24">
-                  </path>
-                </svg>
-              </span>
-              <span class="title">ChatGPT</span>
-            </li>
-          </ul>
-        </div>
-
-        <!-- 歌单 -->
-        <div class="list-songs">
-          <!-- 创建歌单 -->
-          <div class="songs-add">
-            <div class="add-title">
-              创建的歌单
-              <button>+</button>
-            </div>
-            <span class="arrow-icon">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-down" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
-                <path d="M39.6 17.443 24.043 33 8.487 17.443"></path>
-              </svg>
-            </span>
-          </div>
-
-          <div class="add-content">
-            <ul class="content-items">
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-              <li class="items-song">
-                <div class="text">
-                  五月天xxxxxxxxxxxxxxxxxxxxxxxxxxx
-                </div>
-              </li>
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-              <li class="items-song">
-                <div class="text">
-                  五月天xxxxxxxxxxxxxxxxxxxxxxxxxxx
-                </div>
-              </li>
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-              <li class="items-song">
-                <div class="text">
-                  五月天xxxxxxxxxxxxxxxxxxxxxxxxxxx
-                </div>
-              </li>
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-              <li class="items-song">
-                <div class="text">
-                  五月天xxxxxxxxxxxxxxxxxxxxxxxxxxx
-                </div>
-              </li>
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-              <li class="items-song">
-                <div class="text">
-                  五月天xxxxxxxxxxxxxxxxxxxxxxxxxxx
-                </div>
-              </li>
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-            </ul>
-          </div>
-
-          <!-- 收藏歌单 -->
-          <div class="songs-collect">
-            <div class="collect-title">
-              收藏的歌单
-            </div>
-            <span class="arrow-icon">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-down" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
-                <path d="M39.6 17.443 24.043 33 8.487 17.443"></path>
-              </svg>
-            </span>
-          </div>
-          <div class="collect-content none">
-            <ul class="content-items">
-              <li class="items-song">
-                <div class="text">
-                  五月天
-                </div>
-              </li>
-              <li class="items-song">
-                <span class="song-name">古风</span>
-              </li>
-            </ul>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-  </side>
-
-
-  <!-- header -->
-  <header class="header">
-    <div class="header-left">
-      <div class="arrow-icon">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-          class="icon arco-icon-left" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" data-v-27779356="">
-          <path d="M32 8.4 16.444 23.956 32 39.513"></path>
-        </svg>
-      </div>
-      <div class="left-tab">
-        <div class="tab-recommend">
-          <span class="title active">推荐</span>
-        </div>
-        <div class="tab-newUpload">
-          <span class="title">最新上传</span>
-        </div>
-
-        <div class="tab-undeline"></div>
-      </div>
-    </div>
-
-    <div class="header-right flex">
-      <div class="right-search">
-        <div class="search-icon">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-            class="icon arco-icon-search" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-            data-v-27779356="">
-            <path
-              d="M33.072 33.071c6.248-6.248 6.248-16.379 0-22.627-6.249-6.249-16.38-6.249-22.628 0-6.248 6.248-6.248 16.379 0 22.627 6.248 6.248 16.38 6.248 22.628 0Zm0 0 8.485 8.485">
-            </path>
-          </svg>
-
-        </div>
-        <span class="title">搜索</span>
-      </div>
-      <div class="right-theme-icon">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-          class="icon arco-icon-sun-fill" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-          data-v-27779356="">
-          <circle cx="24" cy="24" r="9" fill="currentColor" stroke="none"></circle>
-          <path
-            d="M21 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM21 37.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM42.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM10.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM39.203 34.96a.5.5 0 0 1 0 .707l-3.536 3.536a.5.5 0 0 1-.707 0l-3.535-3.536a.5.5 0 0 1 0-.707l3.535-3.535a.5.5 0 0 1 .707 0l3.536 3.535ZM16.575 12.333a.5.5 0 0 1 0 .707l-3.535 3.535a.5.5 0 0 1-.707 0L8.797 13.04a.5.5 0 0 1 0-.707l3.536-3.536a.5.5 0 0 1 .707 0l3.535 3.536ZM13.04 39.203a.5.5 0 0 1-.707 0l-3.536-3.536a.5.5 0 0 1 0-.707l3.536-3.535a.5.5 0 0 1 .707 0l3.536 3.535a.5.5 0 0 1 0 .707l-3.536 3.536ZM35.668 16.575a.5.5 0 0 1-.708 0l-3.535-3.535a.5.5 0 0 1 0-.707l3.535-3.536a.5.5 0 0 1 .708 0l3.535 3.536a.5.5 0 0 1 0 .707l-3.535 3.535Z"
-            fill="currentColor" stroke="none">
-          </path>
-        </svg>
-      </div>
-      <div class="right-theme-icon">
-        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-          class="icon arco-icon-sun-fill" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-          data-v-27779356="">
-          <circle cx="24" cy="24" r="9" fill="currentColor" stroke="none"></circle>
-          <path
-            d="M21 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM21 37.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM42.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM10.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM39.203 34.96a.5.5 0 0 1 0 .707l-3.536 3.536a.5.5 0 0 1-.707 0l-3.535-3.536a.5.5 0 0 1 0-.707l3.535-3.535a.5.5 0 0 1 .707 0l3.536 3.535ZM16.575 12.333a.5.5 0 0 1 0 .707l-3.535 3.535a.5.5 0 0 1-.707 0L8.797 13.04a.5.5 0 0 1 0-.707l3.536-3.536a.5.5 0 0 1 .707 0l3.535 3.536ZM13.04 39.203a.5.5 0 0 1-.707 0l-3.536-3.536a.5.5 0 0 1 0-.707l3.536-3.535a.5.5 0 0 1 .707 0l3.536 3.535a.5.5 0 0 1 0 .707l-3.536 3.536ZM35.668 16.575a.5.5 0 0 1-.708 0l-3.535-3.535a.5.5 0 0 1 0-.707l3.535-3.536a.5.5 0 0 1 .708 0l3.535 3.536a.5.5 0 0 1 0 .707l-3.535 3.535Z"
-            fill="currentColor" stroke="none">
-          </path>
-        </svg>
-      </div>
-    </div>
-
-  </header>
-
-  <!-- 首页内容 -->
-  <div class="app_content-index">
-    <!-- 歌单 -->
-    <div class="index-body">
-      <div class="body-songList">
-        <div class="songList-head">
-          <div class="head-title">
-            <span class="title">歌单</span>
-            <div class="arrow-icon">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-9b1f2a27="">
-                <path d="m16 39.513 15.556-15.557L16 8.4"></path>
-              </svg>
-            </div>
-          </div>
-          <div class="head-slider">
-            <div class="slider-prev">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-left" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-9b1f2a27="">
-                <path d="M32 8.4 16.444 23.956 32 39.513"></path>
-              </svg>
-            </div>
-            <div class="slider-next">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-9b1f2a27="">
-                <path d="m16 39.513 15.556-15.557L16 8.4"></path>
-              </svg>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="songList-body">
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">歌单标题</div>
-            <div class="author">by merlin</div>
-
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">
-              欧美系 | 歌荒患者必备良药xxxxxxxxxxxxxxxxxxxxx
-            </div>
-            <div class="author">by merlin</div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">
-              热门古风 | 卿卿于心，共享繁花似锦
-            </div>
-            <div class="author">by merlin</div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">
-              怀旧金曲50首｜时过境迁，岁月如风
-            </div>
-            <div class="author">by merlin</div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">
-              考研倒计时：即使单枪匹马 也要奋勇直前
-            </div>
-            <div class="author">by merlin</div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">
-              民谣与酒 | 唱出的故事
-            </div>
-            <div class="author">by merlin</div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-            </div>
-            <div class="title">
-              恋爱进行时 | 浪漫将有万种可能
-            </div>
-            <div class="author">by merlin</div>
-          </div>
-        </div>
-
-        <div class="separator"></div>
-      </div>
-      <!-- 推荐艺人 -->
-      <div class="body-artistRecommend">
-        <div class="artistRecommend-head">
-          <div class="head-title">
-            <span class="title">推荐艺人</span>
-            <div class="arrow-icon">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-9b1f2a27="">
-                <path d="m16 39.513 15.556-15.557L16 8.4"></path>
-              </svg>
-            </div>
-
-          </div>
-
-          <div class="head-slider">
-            <div class="slider-prev">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-left" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-9b1f2a27="">
-                <path d="M32 8.4 16.444 23.956 32 39.513"></path>
-              </svg>
-            </div>
-            <div class="slider-next">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-9b1f2a27="">
-                <path d="m16 39.513 15.556-15.557L16 8.4"></path>
-              </svg>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="artistList-body">
-          <div class="body-item hover">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-          <div class="body-item">
-            <div class="item-img">
-              <img src="./data/imgs/photo-1.jpg" alt="测试图片">
-              <div class="eye-icon">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                  class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                  data-v-91e70b2f="" style="font-size: 35px;">
-                  <path clip-rule="evenodd"
-                    d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
-                  </path>
-                  <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
-                </svg>
-              </div>
-            </div>
-            <div class="artist">
-              周杰伦
-            </div>
-          </div>
-
-        </div>
-
-        <div class="separator"></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- 
-  menu-探索
-  <div class="app_content">
-  </div>
-
-  menu-设置
-  <div class="app_content">
-  </div> 
--->
-
 
   <!-- 定义 svg 图标。后面复用 -->
   <svg aria-hidden="true" style="position: absolute; width: 0px; height: 0px; overflow: hidden;">
@@ -593,546 +55,1214 @@
     </symbol>
   </svg>
 
-  <!-- 播放歌曲 -->
-  <footer class="footer">
-    <div class="songs_play">
-      <!-- 播放信息 -->
-      <div class="play-info">
-        <div class="info-content">
-          <div class="info-avatar">
-            <img class="avatar-img" src="./data/imgs/photo-1.jpg" alt="">
+  <div id="app">
+    <!-- 左 side -->
+    <side class="app_side flex fs-15 fw-5">
+      <!-- head -->
+      <div class="side_head-user flex">
+        <!-- avatar -->
+        <div class="u_avatar ">
+          <span class="letter fw-5 fs-20">M</span>
+        </div>
+        <!-- name -->
+        <div class="u_name flex">
+          <span class="text-ol fc-1 fw-5 fs-17">merlinT</span>
+          <div class="arrow-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon arco-icon-right mx-right-arrow" stroke-width="4" stroke-linecap="butt"
+              stroke-linejoin="miter">
+              <path d="m16 39.513 15.556-15.557L16 8.4"></path>
+            </svg>
           </div>
-          <div class="info-items">
-            <div class="items-name">
-              <span class="text" title="">
-                不分手的恋爱xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        </div>
+      </div>
+      <!-- body -->
+      <div class="side_body">
+        <div class="side_body-list">
+          <!-- menu[首页|探索|设置...] -->
+          <div class="list-menu">
+            <ul side-tabs>
+              <li class="menu-index active flex">
+                <div class="index-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                    class="icon arco-icon-home" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                    data-v-2c8cca13="">
+                    <path d="M7 17 24 7l17 10v24H7V17Z"></path>
+                    <path d="M20 28h8v13h-8V28Z"></path>
+                  </svg>
+                </div>
+                <span class="title text-ol fs-14 fw-5">首页</span>
+              </li>
+
+              <li class="menu-explore flex">
+                <div class="explore-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                    class="icon arco-icon-compass" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                    data-v-2c8cca13="">
+                    <path d="M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6s18 8.059 18 18Z"></path>
+                    <path
+                      d="m21.177 21.183 10.108-4.717a.2.2 0 0 1 .266.265L26.834 26.84l-10.109 4.717a.2.2 0 0 1-.266-.266l4.718-10.108Z">
+                    </path>
+                  </svg>
+                </div>
+                <span class="text-ol fs-14 fw-5">探索</span>
+              </li>
+
+              <li class="menu-setting flex">
+                <div class="setting-icon">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                    class="icon arco-icon-settings" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                    data-v-2c8cca13="">
+                    <path
+                      d="M18.797 6.732A1 1 0 0 1 19.76 6h8.48a1 1 0 0 1 .964.732l1.285 4.628a1 1 0 0 0 1.213.7l4.651-1.2a1 1 0 0 1 1.116.468l4.24 7.344a1 1 0 0 1-.153 1.2L38.193 23.3a1 1 0 0 0 0 1.402l3.364 3.427a1 1 0 0 1 .153 1.2l-4.24 7.344a1 1 0 0 1-1.116.468l-4.65-1.2a1 1 0 0 0-1.214.7l-1.285 4.628a1 1 0 0 1-.964.732h-8.48a1 1 0 0 1-.963-.732L17.51 36.64a1 1 0 0 0-1.213-.7l-4.65 1.2a1 1 0 0 1-1.116-.468l-4.24-7.344a1 1 0 0 1 .153-1.2L9.809 24.7a1 1 0 0 0 0-1.402l-3.364-3.427a1 1 0 0 1-.153-1.2l4.24-7.344a1 1 0 0 1 1.116-.468l4.65 1.2a1 1 0 0 0 1.213-.7l1.286-4.628Z">
+                    </path>
+                    <path d="M30 24a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z"></path>
+                  </svg>
+                </div>
+                <span class="text-ol fs-14 fw-5">设置</span>
+              </li>
+
+              <li>
+                <span>
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                    class="icon chatGpt" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                    data-v-2c8cca13="">
+                    <path
+                      d="M24 33c-6.075 0-11-4.925-11-11m11 11c6.075 0 11-4.925 11-11M24 33v8M13 22V7h22v15m-22 0V9H7v7a6 6 0 0 0 6 6Zm22 0V9h6v7a6 6 0 0 1-6 6ZM12 41h24">
+                    </path>
+                  </svg>
+                </span>
+                <span class="title">ChatGPT</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- 歌单 -->
+          <div class="list-songs">
+            <!-- 创建歌单 -->
+            <div class="songs-add " show-collect-list>
+              <div class="add-title flex fs-14 fw-5">
+                <span class="text-ol">创建的歌单</span>
+                <span class="add-icon flex">
+                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                    class="icon arco-icon-plus !mr-0" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                    data-v-2c8cca13="">
+                    <path d="M5 24h38M24 5v38"></path>
+                  </svg>
+                </span>
+              </div>
+              <span class="arrow-icon flex">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon " stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                  <path d="M39.6 17.443 24.043 33 8.487 17.443"></path>
+                </svg>
               </span>
             </div>
-            <div class="items-author" title="汪苏泷">
-              <span class="text">汪苏泷</span>
+
+            <div class="add-content " collect-list>
+              <ul class="content-items fs-14 fc-3">
+                <li class="items-song " collect-list-name>
+                  <span class="song-name text-ol">喜欢</span>
+                </li>
+
+              </ul>
+            </div>
+
+            <!-- 收藏歌单 -->
+            <div class="songs-collect">
+              <div class="collect-title flex fs-14 fc-3 fw-5">
+                <span class="text-ol">收藏的歌单</span>
+              </div>
+              <span class="arrow-icon">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon arco-icon-down" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                  <path d="M39.6 17.443 24.043 33 8.487 17.443"></path>
+                </svg>
+              </span>
+            </div>
+            <div class="collect-content fs-14 fc-3">
+              <ul class="content-items">
+                <!-- <li class="items-song">
+                  <div class="text-ol">
+                    <span class="song-name">英文</span>
+                  </div>
+                </li> -->
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </side>
+
+
+    <!-- *********** app_footer *************** -->
+    <footer class="app_footer" app_footer>
+      <div class="songs_play flex">
+        <!-- 播放信息 -->
+        <div class="play-info">
+          <div class="info-content flex">
+            <div class="info-avatar">
+              <img class="avatar-img" src="" currentPlay-img70 alt="">
+            </div>
+            <div class="info-items flex">
+              <div class="items-name fs-18 fw-7">
+                <span class="text-tl fc-b" title="" currentPlay-name>
+
+                </span>
+              </div>
+              <div class="items-author fs-12 fc-b">
+                <span title="" class="text-ol underline" currentPlay-author>
+
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="info-blank"></div>
+        </div>
+
+        <!-- 播放控件 -->
+        <div class="play-control flex">
+          <div class="control-items flex">
+            <div class="items-blank"></div>
+            <div class="items-btn flex">
+              <!-- 上一首 -->
+              <div class="btn-prev flex" play-prev-btn>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon arco-icon-skip-previous-fill" stroke-width="5" stroke-linecap="butt"
+                  stroke-linejoin="miter" data-v-71b8316a="">
+                  <path
+                    d="M34.414 35.855a1 1 0 0 0 1.586-.81v-22.09a1 1 0 0 0-1.586-.81L19.122 23.19a1 1 0 0 0 0 1.622l15.292 11.044Z"
+                    fill="currentColor" stroke="none"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M15 12a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2Z" fill="currentColor"
+                    stroke="none"></path>
+                </svg>
+              </div>
+              <!-- 暂停|播放 -->
+              <div class="btn-play pause flex" play-btn>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon pause" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
+                  <path
+                    d="M17.533 10.974a1 1 0 0 0-1.537.844v24.356a1 1 0 0 0 1.537.844L36.67 24.84a1 1 0 0 0 0-1.688L17.533 10.974Z"
+                    fill="currentColor" stroke="none"></path>
+                </svg>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon playing" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
+                  <path d="M14 12h4v24h-4zM30 12h4v24h-4z"></path>
+                  <path fill="currentColor" stroke="none" d="M14 12h4v24h-4zM30 12h4v24h-4z"></path>
+                </svg>
+
+              </div>
+              <!-- 下一首 -->
+              <!-- class play-btn -->
+              <div class="btn-next flex" play-next-btn>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon " stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
+                  <path
+                    d="M13.585 12.145a1 1 0 0 0-1.585.81v22.09a1 1 0 0 0 1.585.81L28.878 24.81a1 1 0 0 0 0-1.622L13.585 12.145Z"
+                    fill="currentColor" stroke="none"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M33 36a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2Z" fill="currentColor"
+                    stroke="none"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="items-blank"></div>
+          </div>
+
+          <div class="control-progress flex">
+            <span class="progress-currentTime" play-currentTime>
+              00:00
+            </span>
+            <div class="progress-bar">
+              <input class="range" play-Progress type="range" value="0" min="0" max="100" step="1">
+              <div class="progress-colorFill" play-colorFill></div>
+            </div>
+            <span class="progress-totalTime" play-totalTime>
+              00:00
+            </span>
+          </div>
+        </div>
+
+        <!-- 播放设置 -->
+        <div class="play-setting flex">
+          <div class="setting-blank"></div>
+          <div class="setting-options flex">
+            <div class="options-speed flex">
+              <li class="flex fs-16 fw-6">
+                <span class="speed-num">1.0</span>
+                <span>x</span>
+              </li>
+            </div>
+
+            <div class="options-order flex" play-shuffle>
+              <li class="flex">
+                <svg class="icon">
+                  <use xlink:href="#icon-suijibofang1" fill="currentColor"></use>
+                </svg>
+              </li>
+            </div>
+            <div class="options-circulationMode flex">
+              <li class="flex single" play-mode>
+                <!-- 单曲 -->
+                <svg class="icon single">
+                  <use xlink:href="#icon-liebiaoxunhuan" fill="currentColor"></use>
+                </svg>
+                <!-- 列表循环 -->
+                <svg class="icon listLoop" style="color: var(--blue-color);">
+                  <use xlink:href="#icon-liebiaoxunhuan" fill="currentColor"></use>
+                </svg>
+                <!-- 单曲循环 -->
+                <svg class="icon singleLoop" style="color: var(--blue-color);">
+                  <use xlink:href="#icon-danquxunhuan1" fill="currentColor"></use>
+                </svg>
+              </li>
+            </div>
+            <div class="options-sound flex">
+              <li class="flex sound" play-volume-icon>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon sound" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" data-v-00a66cdf=""
+                  style="font-size: 20px;">
+                  <path d="m14 16 10-9v34l-10-9H6V16h8Z"></path>
+                  <path
+                    d="M31.071 16.929c3.905 3.905 3.905 10.237 0 14.142M36.727 11.272c7.03 7.03 7.03 18.426 0 25.456">
+                  </path>
+                </svg>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon mute" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" data-v-00a66cdf=""
+                  style="font-size: 20px;">
+                  <path
+                    d="m19 11.5 4.833-4.35a.1.1 0 0 1 .167.075V17m-14-1H7.1a.1.1 0 0 0-.1.1v15.8a.1.1 0 0 0 .1.1H14l9.833 8.85a.1.1 0 0 0 .167-.075V31m6.071-14.071C32.535 19.393 34 23 32.799 26m2.929-14.728C41.508 17.052 42.5 25 39.123 32M6.5 6.5l35 35">
+                  </path>
+                </svg>
+              </li>
+            </div>
+            <div class="options-soundSlider flex">
+              <input type="range" play-volume-range min="0" max="1" value="0.2" step="0.01">
+              <div class="progress-colorFill" play-volume-colorFill></div>
+            </div>
+            <div class="separator"></div>
+            <!-- 播放记录-btn -->
+            <div class="options-record flex">
+              <li class="flex" play-record-btn>
+                <svg style="width: 22px; height: 22px;">
+                  <use xlink:href="#icon-playlist" fill="currentColor"></use>
+                </svg>
+              </li>
             </div>
           </div>
         </div>
-        <div class="info-blank"></div>
+      </div>
+    </footer>
+
+    <footer class="mobile_footer">
+      <div class="play-control flex" app_footer>
+        <div class="author-img">
+          <img src="./data/imgs/music_1-70x70.jpg" alt="">
+        </div>
+        <div class="info fs-14">
+          <div class="text-ol">
+            <span>起风了</span>
+            <span>-</span>
+            <span>买辣椒也用券</span>
+          </div>
+        </div>
+        <div class="play-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+            class="icon pause" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
+            <path
+              d="M17.533 10.974a1 1 0 0 0-1.537.844v24.356a1 1 0 0 0 1.537.844L36.67 24.84a1 1 0 0 0 0-1.688L17.533 10.974Z"
+              fill="currentColor" stroke="none"></path>
+          </svg>
+        </div>
+        <div class="next-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" class="icon "
+            stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
+            <path
+              d="M13.585 12.145a1 1 0 0 0-1.585.81v22.09a1 1 0 0 0 1.585.81L28.878 24.81a1 1 0 0 0 0-1.622L13.585 12.145Z"
+              fill="currentColor" stroke="none"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M33 36a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2Z" fill="currentColor"
+              stroke="none"></path>
+          </svg>
+        </div>
+        <div class="record-icon" play-record-btn>
+          <span class="flex" >
+            <svg style="width: 22px; height: 22px;">
+              <use xlink:href="#icon-playlist" fill="currentColor"></use>
+            </svg>
+          </span>
+        </div>
       </div>
 
-      <!-- 播放控件 -->
-      <div class="play-control">
-        <div class="control-items">
-          <div class="items-blank"></div>
-          <div class="items-btn">
-            <!-- 上一首 -->
-            <div class="btn-prev">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-skip-previous-fill" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-71b8316a="">
-                <path
-                  d="M34.414 35.855a1 1 0 0 0 1.586-.81v-22.09a1 1 0 0 0-1.586-.81L19.122 23.19a1 1 0 0 0 0 1.622l15.292 11.044Z"
-                  fill="currentColor" stroke="none"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M15 12a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2Z" fill="currentColor"
-                  stroke="none"></path>
-              </svg>
-            </div>
-            <!-- 暂停|播放 -->
-            <div class="btn-play">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-play-arrow-fill" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-71b8316a="">
-                <path
-                  d="M17.533 10.974a1 1 0 0 0-1.537.844v24.356a1 1 0 0 0 1.537.844L36.67 24.84a1 1 0 0 0 0-1.688L17.533 10.974Z"
-                  fill="currentColor" stroke="none"></path>
-              </svg>
-            </div>
-            <!-- 下一首 -->
-            <div class="btn-next">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-skip-next-fill" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-71b8316a="">
-                <path
-                  d="M13.585 12.145a1 1 0 0 0-1.585.81v22.09a1 1 0 0 0 1.585.81L28.878 24.81a1 1 0 0 0 0-1.622L13.585 12.145Z"
-                  fill="currentColor" stroke="none"></path>
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M33 36a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2Z" fill="currentColor"
-                  stroke="none"></path>
-              </svg>
-            </div>
+      <div class="tabs flex">
+        <button class="active">
+          <div class="text-ol flex fs-14">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon icon-home" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+              data-v-27d6b3c4="" style="font-size: 20px;">
+              <path d="M7 17 24 7l17 10v24H7V17Z"></path>
+              <path d="M20 28h8v13h-8V28Z"></path>
+            </svg>
+            <span>首页</span>
           </div>
-          <div class="items-blank"></div>
+        </button>
+        <button>
+          <div class="text-ol flex fs-14">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon icon-compass" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+              data-v-27d6b3c4="" style="font-size: 20px;">
+              <path d="M42 24c0 9.941-8.059 18-18 18S6 33.941 6 24 14.059 6 24 6s18 8.059 18 18Z"></path>
+              <path
+                d="m21.177 21.183 10.108-4.717a.2.2 0 0 1 .266.265L26.834 26.84l-10.109 4.717a.2.2 0 0 1-.266-.266l4.718-10.108Z">
+              </path>
+            </svg>
+            <span>探索</span>
+          </div>
+        </button>
+        <button>
+          <div class="text-ol fs-14 flex">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon icon-user" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+              data-v-27d6b3c4="" style="font-size: 20px;">
+              <path d="M7 37c0-4.97 4.03-8 9-8h16c4.97 0 9 3.03 9 8v3a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1v-3Z"></path>
+              <circle cx="24" cy="15" r="8"></circle>
+            </svg>
+            <span>我的</span>
+          </div>
+        </button>
+
+
+      </div>
+    </footer>
+
+
+
+
+
+
+    <div class="app_main">
+      <!-- *************** header ************** -->
+      <header class="app_header flex" app_header>
+        <div class="header-left flex">
+          <div class="arrow-icon " prev-page-icon>
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" class="icon "
+              stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" data-v-27779356="">
+              <path d="M32 8.4 16.444 23.956 32 39.513"></path>
+            </svg>
+          </div>
+          <div class="left-tab flex fw-6 fc-2 fs-14" header-left-tabs>
+            <div class="tab-recommend active">
+              <span class="text-ol">推荐</span>
+              <div class="tab-undeline"></div>
+            </div>
+            <div class="tab-newUpload">
+              <span class="text-ol">最新上传</span>
+              <div class="tab-undeline"></div>
+            </div>
+
+
+          </div>
         </div>
 
-        <div class="control-progress">
-          <span class="progress-currentTime">00:00</span>
-          <div class="progress-bar">
-            <input type="range" min="0" max="100">
+        <div class="header-right flex">
+          <div class="right-search flex">
+            <div class="search-icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                class="icon arco-icon-search" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                <path
+                  d="M33.072 33.071c6.248-6.248 6.248-16.379 0-22.627-6.249-6.249-16.38-6.249-22.628 0-6.248 6.248-6.248 16.379 0 22.627 6.248 6.248 16.38 6.248 22.628 0Zm0 0 8.485 8.485">
+                </path>
+              </svg>
+              <span class="title">搜索</span>
+            </div>
+
           </div>
-          <span class="progress-totalTime">04:00</span>
+          <div class="right-theme-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon arco-icon-sun-fill" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+              data-v-27779356="">
+              <circle cx="24" cy="24" r="9" fill="currentColor" stroke="none"></circle>
+              <path
+                d="M21 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM21 37.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM42.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM10.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM39.203 34.96a.5.5 0 0 1 0 .707l-3.536 3.536a.5.5 0 0 1-.707 0l-3.535-3.536a.5.5 0 0 1 0-.707l3.535-3.535a.5.5 0 0 1 .707 0l3.536 3.535ZM16.575 12.333a.5.5 0 0 1 0 .707l-3.535 3.535a.5.5 0 0 1-.707 0L8.797 13.04a.5.5 0 0 1 0-.707l3.536-3.536a.5.5 0 0 1 .707 0l3.535 3.536ZM13.04 39.203a.5.5 0 0 1-.707 0l-3.536-3.536a.5.5 0 0 1 0-.707l3.536-3.535a.5.5 0 0 1 .707 0l3.536 3.535a.5.5 0 0 1 0 .707l-3.536 3.536ZM35.668 16.575a.5.5 0 0 1-.708 0l-3.535-3.535a.5.5 0 0 1 0-.707l3.535-3.536a.5.5 0 0 1 .708 0l3.535 3.536a.5.5 0 0 1 0 .707l-3.535 3.535Z"
+                fill="currentColor" stroke="none">
+              </path>
+            </svg>
+          </div>
+          <div class="right-theme-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon arco-icon-sun-fill" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+              data-v-27779356="">
+              <circle cx="24" cy="24" r="9" fill="currentColor" stroke="none"></circle>
+              <path
+                d="M21 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM21 37.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5ZM42.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM10.5 21a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-5a.5.5 0 0 1 .5-.5h5ZM39.203 34.96a.5.5 0 0 1 0 .707l-3.536 3.536a.5.5 0 0 1-.707 0l-3.535-3.536a.5.5 0 0 1 0-.707l3.535-3.535a.5.5 0 0 1 .707 0l3.536 3.535ZM16.575 12.333a.5.5 0 0 1 0 .707l-3.535 3.535a.5.5 0 0 1-.707 0L8.797 13.04a.5.5 0 0 1 0-.707l3.536-3.536a.5.5 0 0 1 .707 0l3.535 3.536ZM13.04 39.203a.5.5 0 0 1-.707 0l-3.536-3.536a.5.5 0 0 1 0-.707l3.536-3.535a.5.5 0 0 1 .707 0l3.536 3.535a.5.5 0 0 1 0 .707l-3.536 3.536ZM35.668 16.575a.5.5 0 0 1-.708 0l-3.535-3.535a.5.5 0 0 1 0-.707l3.535-3.536a.5.5 0 0 1 .708 0l3.535 3.536a.5.5 0 0 1 0 .707l-3.535 3.535Z"
+                fill="currentColor" stroke="none">
+              </path>
+            </svg>
+          </div>
+        </div>
+
+      </header>
+
+      <main class="main-wrap">
+
+        <!-- ********** 首页内容 **************** -->
+        <div class="app_content-index " app_index>
+          <!-- 歌单 -->
+          <div class="index-body flex">
+            <div class="body-songList">
+              <div class="songList-head flex">
+                <div class="head-title flex">
+                  <span class="title fs-24 fw-6">歌单</span>
+                  <div class="arrow-icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-9b1f2a27="">
+                      <path d="m16 39.513 15.556-15.557L16 8.4"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="head-slider flex">
+                  <div class="slider-prev flex">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-left" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-9b1f2a27="">
+                      <path d="M32 8.4 16.444 23.956 32 39.513"></path>
+                    </svg>
+                  </div>
+                  <div class="slider-next flex">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-9b1f2a27="">
+                      <path d="m16 39.513 15.556-15.557L16 8.4"></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="songList-body flex">
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/op.png" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>测试这个歌单的标题超过了两行，就会用省略符号</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by merlin</span>
+                  </div>
+
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/p0.jpg" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>欧美系 | 歌荒患者必备良药 xxxxxxxxxxxxxxxxx</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by FreeKuGou</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/p2.jpg" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>热门古风 | 卿卿于心，共享繁花似锦</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by FreeKuGou</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/p3.jpg" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>怀旧金曲50首｜时过境迁，岁月如风</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by FreeKuGou</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/p4.jpg" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>考研倒计时：即使单枪匹马 也要奋勇直前</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by FreeKuGou</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/p5.jpg" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>民谣与酒 | 唱出的故事</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by FreeKuGou</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/p6.jpg" alt="">
+                  </div>
+                  <div class="title fs-14 fc-b text-tl">
+                    <span>恋爱进行时 | 浪漫将有万种可能</span>
+                  </div>
+                  <div class="author fs-14 fc-b text-ol">
+                    <span>by FreeKuGou</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="separator"></div>
+            </div>
+            <!-- 推荐艺人 -->
+            <div class="body-artistRecommend">
+              <div class="artistRecommend-head flex">
+                <div class="head-title flex">
+                  <span class="title fs-24 fw-6">推荐艺人</span>
+                  <div class="arrow-icon">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-9b1f2a27="">
+                      <path d="m16 39.513 15.556-15.557L16 8.4"></path>
+                    </svg>
+                  </div>
+
+                </div>
+
+                <div class="head-slider flex">
+                  <div class="slider-prev">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-left" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-9b1f2a27="">
+                      <path d="M32 8.4 16.444 23.956 32 39.513"></path>
+                    </svg>
+                  </div>
+                  <div class="slider-next">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-right" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-9b1f2a27="">
+                      <path d="m16 39.513 15.556-15.557L16 8.4"></path>
+                    </svg>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="artistList-body flex">
+                <div class="body-item hover">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A1.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>毛不易</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A2.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>许嵩</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A3.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>陈奕迅</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A4.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>毛不易</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A5.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>张杰</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A6.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>五月天</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A7.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>朴树</span>
+                  </div>
+                </div>
+                <div class="body-item">
+                  <div class="item-img">
+                    <img src="./data/imgs/indexPage/A8.jpg" alt="">
+                    <div class="eye-icon">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-eye" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-91e70b2f="" style="font-size: 35px;">
+                        <path clip-rule="evenodd"
+                          d="M24 37c6.627 0 12.627-4.333 18-13-5.373-8.667-11.373-13-18-13-6.627 0-12.627 4.333-18 13 5.373 8.667 11.373 13 18 13Z">
+                        </path>
+                        <path d="M29 24a5 5 0 1 1-10 0 5 5 0 0 1 10 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="artist">
+                    <span>张韶涵</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="separator"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="app_collect none" app_collect>
+          <div class="collect-content">
+            <div class="content-wrapper">
+              <div class="wrapper-firstBg ">
+                <img class="firstBg" src="./data/imgs/music_2-200x200.jpg" alt="">
+              </div>
+
+              <div class="wrapper-firstInfo">
+                <div class="firstInfo flex">
+                  <div class="firstInfo-firstImg ">
+                    <img class="firstImg" src="./data/imgs/music_2-200x200.jpg" alt="">
+                  </div>
+                  <div class="firstInfo-right">
+                    <article class="right-headline">
+                      <div class="headline fs-30 fc-2 fw-5">
+                        <span class="collect-name">喜欢</span>
+                        <span class="edit-icon">
+                          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                            class="icon " stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                            <path
+                              d="m30.48 19.038 5.733-5.734a1 1 0 0 0 0-1.414l-5.586-5.586a1 1 0 0 0-1.414 0l-5.734 5.734m7 7L15.763 33.754a1 1 0 0 1-.59.286l-6.048.708a1 1 0 0 1-1.113-1.069l.477-6.31a1 1 0 0 1 .29-.631l14.7-14.7m7 7-7-7M6 42h36">
+                            </path>
+                          </svg>
+                        </span>
+                      </div>
+                    </article>
+                    <p class="right-text text-ol">
+                      <span class="author">merlinT</span>
+                      <span> · 创建于 </span>
+                      <span class="createTime">2023/4/23</span>
+                    </p>
+                    <div class="right-options flex">
+                      <div class="options flex ">
+                        <button class="playAll-btn flex fc-w fs-14 fw-5">
+                          <span class="playAll-icon flex">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"
+                              stroke="currentColor" class="icon " stroke-width="4" stroke-linecap="butt"
+                              stroke-linejoin="miter">
+                              <path
+                                d="M17.533 10.974a1 1 0 0 0-1.537.844v24.356a1 1 0 0 0 1.537.844L36.67 24.84a1 1 0 0 0 0-1.688L17.533 10.974Z"
+                                fill="currentColor" stroke="none"></path>
+                            </svg>
+                          </span>
+                          <span class="text-ol">播放全部 5</span>
+                        </button>
+                        <button class="add-btn">
+                          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                            class="icon " stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                            <path d="M5 24h38M24 5v38"></path>
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="wrapper-titleList flex fs-14">
+                <div class="blankHead"></div>
+                <div class="title text-ol flex">音乐标题</div>
+                <div class="author text-ol flex">歌手</div>
+                <div class="album text-ol flex">专辑</div>
+                <div class="totalTime text-ol flex">时长</div>
+                <div class="blankTail"></div>
+              </div>
+
+              <!-- 收藏歌单列表 -->
+              <div class="wrapper-contentList" collect-list-item>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+        menu-探索
+        <div class="app_content">
+        </div>
+
+        menu-设置
+        <div class="app_content">
+        </div> 
+        -->
+
+        <!-- ******* 另一边aside - 播放记录 ****** -->
+        <aside class="app_aside " play-record>
+          <div class="aside-record flex">
+            <div class="record-head flex">
+              <div class="head-tabs flex">
+                <div class="tabs-item flex">
+                  <div class="item-currentPlayList">
+                    <button class="active fs-12 fc-2 fw-5">当前播放</button>
+                  </div>
+                  <div class="item-historyPlayList">
+                    <button class="fs-12 fc-2 fw-5">历史播放</button>
+                  </div>
+                </div>
+                <div class="tabs-close flex">
+                  <span class="close-icon flex" close-record-btn>
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-close" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-0dcbc61d="">
+                      <path d="M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142"></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="head-info flex">
+                <!-- 汇总数量 -->
+                <span class="info-numberSummary text-ol fs-14 fc-3">总26首歌</span>
+                <!-- 清除功能 -->
+                <div class="info-functionClear flex">
+                  <span class="position-icon flex">
+                    <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                      class="icon arco-icon-location" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                      data-v-0dcbc61d="">
+                      <circle cx="24" cy="19" r="5"></circle>
+                      <path
+                        d="M39 20.405C39 28.914 24 43 24 43S9 28.914 9 20.405C9 11.897 15.716 5 24 5c8.284 0 15 6.897 15 15.405Z">
+                      </path>
+                    </svg>
+                  </span>
+                  <span class="functionClear-btn fs-14 fc-3">清空列表</span>
+                </div>
+
+              </div>
+            </div>
+            <!-- 播放记录列表 -->
+            <div class="record-body">
+              <ul play-record-ul>
+              </ul>
+            </div>
+
+          </div>
+        </aside>
+
+
+        <!-- *************** 歌曲播放面板 *************** -->
+        <!-- 背景图片 -->
+        <img class="imgBoard" currentPlay-img400>
+        </img>
+        <!-- 歌曲 -->
+        <div class="song_panel " song-panel>
+          <div class="panel-options flex">
+            <div class="options-close flex">
+              <span class="close-icon flex" close-panel-btn>
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon arco-icon-down" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"
+                  data-v-b99b404e="" style="font-size: 30px;">
+                  <path d="M39.6 17.443 24.043 33 8.487 17.443"></path>
+                </svg>
+              </span>
+            </div>
+            <div class="options-fullScreen flex">
+              <span class="fullScreen-icon flex">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                  class="icon arco-icon-fullscreen" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"
+                  data-v-b99b404e="" style="font-size: 30px;">
+                  <path
+                    d="M42 17V9a1 1 0 0 0-1-1h-8M6 17V9a1 1 0 0 1 1-1h8m27 23v8a1 1 0 0 1-1 1h-8M6 31v8a1 1 0 0 0 1 1h8">
+                  </path>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <div class="panel-content flex">
+            <div class="content-left flex">
+              <div class="close mobile">
+                <div class="line" close-panel-btn></div>
+              </div>
+              <div class="left-songInfo flex">
+                <div class="songInfo-img flex">
+                  <img class="img " src="" alt="..." play-imgBorad currentPlay-img400>
+                </div>
+
+                <div class="songInfo-item flex ">
+                  <div class="item-song flex">
+                    <div class="song-name">
+                      <span title="" class="name text-ol fs-20 fw-6" currentPlay-name>
+
+                      </span>
+                    </div>
+                    <div class="song-author">
+                      <span title="" class="author text-ol underline fw-6 fs-16" currentPlay-author>
+
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item-moreActions flex">
+                    <span class="moreActions-icon flex">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-more" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-b99b404e="">
+                        <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
+                        </path>
+                        <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile songInfo-item flex">
+                  <div class="item-song flex">
+                    <div class="song-name">
+                      <span title="" class="name text-ol fs-20 fw-6" currentPlay-name>
+
+                      </span>
+                    </div>
+                    <div class="song-author">
+                      <span title="" class="author text-ol underline fw-6 fs-16" currentPlay-author>
+
+                      </span>
+                    </div>
+                  </div>
+                  <div class="item-moreActions flex">
+                    <span class="moreActions-icon flex">
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-more" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-b99b404e="">
+                        <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
+                        </path>
+                        <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
+                      </svg>
+                    </span>
+                  </div>
+              </div>
+
+              <div class="left-playControl">
+                <div class="playControl-progressBar flex">
+                  <span class="text-ol currentTime" play-currentTime>00:00</span>
+                  <div class="progressBar">
+                    <input type="range" play-Progress min="0" max="100" value="0" step="1">
+                    <div class="progress-colorFill" play-colorFill></div>
+                  </div>
+                  <span class="text-ol totalTime" play-totalTime>00:00</span>
+                </div>
+
+                <div class="playControl-function flex">
+                  <div class="function-playSetting flex">
+                    <span class="playSetting-icon flex">
+                      <svg class="icon single">
+                        <use xlink:href="#icon-liebiaoxunhuan" fill="currentColor"></use>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="function-prevSong flex">
+                    <span class="prevSong-icon flex" play-prev-btn>
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-skip-previous-fill" stroke-width="5" stroke-linecap="butt"
+                        stroke-linejoin="miter" data-v-71b8316a="">
+                        <path
+                          d="M34.414 35.855a1 1 0 0 0 1.586-.81v-22.09a1 1 0 0 0-1.586-.81L19.122 23.19a1 1 0 0 0 0 1.622l15.292 11.044Z"
+                          fill="currentColor" stroke="none"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M15 12a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2Z"
+                          fill="currentColor" stroke="none"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="function-Play flex">
+                    <span class="Play-icon flex pause" play-btn>
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon pause" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"
+                        data-v-71b8316a="">
+                        <path
+                          d="M17.533 10.974a1 1 0 0 0-1.537.844v24.356a1 1 0 0 0 1.537.844L36.67 24.84a1 1 0 0 0 0-1.688L17.533 10.974Z"
+                          fill="currentColor" stroke="none"></path>
+                      </svg>
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon playing" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
+                        <path d="M14 12h4v24h-4zM30 12h4v24h-4z"></path>
+                        <path fill="currentColor" stroke="none" d="M14 12h4v24h-4zM30 12h4v24h-4z"></path>
+                      </svg>
+
+                    </span>
+                  </div>
+                  <div class="function-nextSong flex">
+                    <span class="nextSong-icon flex" play-next-btn>
+                      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                        class="icon arco-icon-skip-next-fill" stroke-width="5" stroke-linecap="butt"
+                        stroke-linejoin="miter" data-v-71b8316a="">
+                        <path
+                          d="M13.585 12.145a1 1 0 0 0-1.585.81v22.09a1 1 0 0 0 1.585.81L28.878 24.81a1 1 0 0 0 0-1.622L13.585 12.145Z"
+                          fill="currentColor" stroke="none"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                          d="M33 36a1 1 0 0 1-1-1V13a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v22a1 1 0 0 1-1 1h-2Z"
+                          fill="currentColor" stroke="none"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="function-displayChange flex">
+                    <span class="displayChange-icon flex">
+                      <svg aria-hidden="true" style="width: 24px; height: 24px;">
+                        <use xlink:href="#icon-playlist" fill="currentColor"></use>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="content-right">
+              <div class="right-wrap" wrap-lyrics>
+                <div class="wrap-lyrics fs-30 fw-5" play-lyrics>
+                  <!-- 歌词 -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </main>
+    </div>
+
+
+
+    <!-- **************页面所有弹框*************** -->
+    <!--  更多操作弹框 -->
+    <div class="moreActions_menu flex fc-b none">
+      <div class="menu-info flex ">
+        <div class="info-img">
+          <img src="./data/imgs/photo-1.jpg" alt="">
+        </div>
+        <div class="info-data fc-b fs-15">
+          <div class="data-name text-ol fw-6">
+            <span class="text">孤城</span>
+          </div>
+          <div class="data-from text-ol">
+            <span class="author underline ">洛先生</span>
+            <span class="dash">&#8211</span>
+            <span class="album underline">孤城xxxxxxxxxxxxxxxx</span>
+          </div>
         </div>
       </div>
 
-      <!-- 播放设置 -->
-      <div class="play-setting">
-        <div class="setting-blank"></div>
-        <div class="setting-options">
-          <div class="options-speed">
-            <li>
-              <span class="speed-num">1.0</span>
-              <span>x</span>
-            </li>
-          </div>
-          <!-- 提示框 -->
-          <div class="tips">
-            <div class="tips-content">随机播放</div>
-            <div class="tips-triangle"></div>
+      <div class="separator"></div>
+
+      <div class="menu-settingSong">
+        <div class="settingSong-item flex">
+          <div class="item-play flex fs-15">
+            <div class="play-icon flex">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                class="icon arco-icon-pause" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                <path d="M14 12h4v24h-4zM30 12h4v24h-4z"></path>
+                <path fill="currentColor" stroke="none" d="M14 12h4v24h-4zM30 12h4v24h-4z"></path>
+              </svg>
+              <!-- <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                class="icon arco-icon-line-height" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                <path d="M4 8h14.5M33 8H18.5m0 0v34"></path>
+                <path d="M39 9.5 37 13h4l-2-3.5ZM39 38.5 37 35h4l-2 3.5Z" fill="currentColor" stroke="none"></path>
+                <path d="M39 13h2l-2-3.5-2 3.5h2Zm0 0v22m0 0h2l-2 3.5-2-3.5h2Z"></path>
+              </svg> -->
+            </div>
+            <span class="stop text-ol ">暂停</span>
+            <!-- <span class="size text">歌词大小</span> -->
           </div>
 
-          <div class="options-order">
-            <li>
+          <div class="item-del flex">
+            <!-- 后面没有 arrow icon -->
+            <div class="del-icon flex">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                class="icon arco-icon-delete" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                <path
+                  d="M5 11h5.5m0 0v29a1 1 0 0 0 1 1h25a1 1 0 0 0 1-1V11m-27 0H16m21.5 0H43m-5.5 0H32m-16 0V7h16v4m-16 0h16M20 18v15m8-15v15">
+                </path>
+              </svg>
+              <!-- <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+              class="icon arco-icon-history" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+              <path
+                d="M6 24c0-9.941 8.059-18 18-18s18 8.059 18 18-8.059 18-18 18c-6.26 0-11.775-3.197-15-8.047M6 24l-.5-.757h1L6 24Zm26 2h-9v-9">
+              </path>
+            </svg> -->
+            </div>
+
+            <span class="del text-ol">从列表删除</span>
+            <!-- <span class="del text">歌词偏移</span> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="separator"></div>
+
+      <div class="menu-settingOther">
+        <div class="settingOther-item">
+          <div class="item-collect flex">
+            <div class="collect-icon flex">
               <svg class="icon">
-                <use xlink:href="#icon-suijibofang1" fill="currentColor"></use>
+                <use xlink:href="#icon-addsub" fill="currentColor"></use>
               </svg>
-            </li>
-          </div>
-          <div class="options-circulationMode">
-            <li>
-              <svg style="width: 18px; height: 18px; color: var(--blue);">
-                <use xlink:href="#icon-danquxunhuan1" fill="currentColor"></use>
-              </svg>
-            </li>
-          </div>
-          <div class="options-sound">
-            <li>
+            </div>
+            <!-- 后面有 arrow icon -->
+            <div class="arrow-icon flex">
+              <span class="collect text-ol">收藏到歌单</span>
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-sound" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-00a66cdf="" style="font-size: 20px;">
-                <path d="m14 16 10-9v34l-10-9H6V16h8Z"></path>
-                <path d="M31.071 16.929c3.905 3.905 3.905 10.237 0 14.142M36.727 11.272c7.03 7.03 7.03 18.426 0 25.456">
-                </path>
+                class="icon arco-icon-right mx-right-arrow" stroke-width="4" stroke-linecap="butt"
+                stroke-linejoin="miter">
+                <path d="m16 39.513 15.556-15.557L16 8.4"></path>
               </svg>
-            </li>
+            </div>
           </div>
-          <div class="options-soundSlider">
-            <input type="range" min="0" max="100">
-          </div>
-          <div class="separator"></div>
-          <!-- 播放记录-btn -->
-          <div class="options-record">
-            <li>
-              <svg style="width: 22px; height: 22px;">
-                <use xlink:href="#icon-playlist" fill="currentColor"></use>
-              </svg>
-            </li>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
 
-  <!-- 另一边side - 播放记录 -->
-  <aside class="app_aside">
-    <div class="aside-record">
-      <div class="record-head">
-        <div class="head-tabs">
-          <div class="tabs-item">
-            <div class="item-currentPlayList">
-              <button class="active">当前播放</button>
-            </div>
-            <div class="item-historyPlayList">
-              <button>历史播放</button>
-            </div>
-          </div>
-          <div class="tabs-close">
-            <span class="close-icon">
+          <div class="item-copy flex">
+            <div class="copy-icon flex">
               <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-close" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-0dcbc61d="">
-                <path d="M9.857 9.858 24 24m0 0 14.142 14.142M24 24 38.142 9.858M24 24 9.857 38.142"></path>
-              </svg>
-            </span>
-          </div>
-        </div>
-        <div class="head-info">
-          <!-- 汇总数量 -->
-          <span class="info-numberSummary text">总26首歌</span>
-          <!-- 清除功能 -->
-          <div class="info-functionClear flex">
-            <span class="xxx-icon flex">
-              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                class="icon arco-icon-location" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter"
-                data-v-0dcbc61d="">
-                <circle cx="24" cy="19" r="5"></circle>
+                class="icon arco-icon-copy" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
                 <path
-                  d="M39 20.405C39 28.914 24 43 24 43S9 28.914 9 20.405C9 11.897 15.716 5 24 5c8.284 0 15 6.897 15 15.405Z">
+                  d="M20 6h18a2 2 0 0 1 2 2v22M8 16v24c0 1.105.891 2 1.996 2h20.007A1.99 1.99 0 0 0 32 40.008V15.997A1.997 1.997 0 0 0 30 14H10a2 2 0 0 0-2 2Z">
                 </path>
               </svg>
-            </span>
-            <span class="functionClear-btn">清空列表</span>
+            </div>
+            <span class="copy text-ol">复制歌名</span>
+          </div>
+          <div class="item-download flex">
+            <div class="download-icon flex">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
+                class="icon arco-icon-download" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter">
+                <path d="m33.072 22.071-9.07 9.071-9.072-9.07M24 5v26m16 4v6H8v-6"></path>
+              </svg>
+            </div>
+            <span class="download text-ol">下载</span>
           </div>
 
         </div>
       </div>
-      <!-- 播放记录列表 -->
-      <div class="record-body">
-        <ul>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          <li class="body-palyList flex active">
-            <div class="palyList-data flex">
-              <div class="data-img">
-                <img src="./data/imgs/photo-1.jpg" alt="">
-              </div>
-              <div class="data-info">
-                <div class="data-name">
-                  <span class="text">孤城</span>
-                </div>
-                <div class="data-author text">
-                  <span class="underline">洛先生</span>
-                  <span class="separator">-</span>
-                  <span class="underline">孤城</span>
-                </div>
-              </div>
-              <div class="data-moreActions flex">
-                <button class="moreActions-icon">
-                  <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor"
-                    class="icon arco-icon-more" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter">
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z" fill="currentColor" stroke="none">
-                    </path>
-                    <path d="M38 25v-2h2v2h-2ZM23 25v-2h2v2h-2ZM8 25v-2h2v2H8Z"></path>
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
+
+
 
     </div>
-  </aside>
+    <!-- 提示框 -->
+    <div class="tips none">
+      <div class="tips-content fs-14 fw-6">随机播放</div>
+      <div class="tips-triangle"></div>
+    </div>
+
+  </div>
 
 
+  <script src="./data/playList.js"></script>
+  <script src="./data/collect.js"></script>
+  <script src="./data/lyrics.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>

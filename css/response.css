@@ -1,0 +1,151 @@
+/* 
+  响应设备
+*/
+  /* 1300px - 1920 */
+@media (min-width: 1300px) {
+
+  /* footer */
+  .mobile_footer {
+    display: none;
+  }
+
+
+  /* pannel */
+  .content-left .songInfo-item.mobile{
+    display: none;
+  }
+}
+
+  /* 768px - 1300px */
+@media (max-width: 1300px) {
+  :root {
+    --side-width: 200px;
+  }
+
+  /* footer */
+  .mobile_footer {
+    display: none;
+  }
+
+
+  /* pannel */
+  .content-left .songInfo-item.mobile{
+    display: none;
+  }
+  .content-left .close.mobile{
+    display: none;
+  }
+}
+
+ /* 360px - 768px */
+@media (max-width: 768px) {
+
+  /* app_side */
+  :root {
+    --side-width: 0px;
+  }
+
+  .side_head-user .u_name {
+    display: none;
+  }
+
+
+  /* header */
+  .app_header .header-left .arrow-icon {
+    display: none;
+  }
+
+  /* footer */
+  .mobile_footer {
+    display: block;
+  }
+
+  /* lyrics-pannel */
+
+  .song_panel .panel-content {
+    max-width: 576px;
+    height: 100%;
+    margin: 0  auto;
+  }
+
+  .panel-content .content-right{
+    display: none;
+  }
+
+
+  .panel-content .content-left {
+    width: 100%;
+    justify-content: flex-end;
+    margin: 19px 0 0 0;
+  }
+ 
+  .panel-content .left-songInfo {
+    flex: 1;
+  }
+
+  .item-moreActions{
+    display: none;
+  }
+  .left-songInfo .img{
+    width: 100%; 
+    object-fit: fill;
+  }
+
+  .left-songInfo .songInfo-item {
+    display: none;
+  }
+  .content-left .mobile.songInfo-item {
+    display: block;
+    flex: 1;
+  }
+
+  .panel-content .left-playControl {
+    flex: 1;
+    margin-top: 4px;
+    width: 100%;
+  }
+
+  .content-left .close.mobile{
+    flex: 1;
+    position: relative;
+    display: block;
+    width: 100%;
+    
+  }
+  .content-left .close.mobile .line{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    opacity: .5;
+    cursor: pointer;
+  }
+  .song_panel .panel-options{
+    display: none;
+  }
+
+}
+
+ /* <360px */
+@media (max-width: 360px) {
+  .app_aside{
+    width: 100%;
+    left: 0;
+  }
+
+}
+
+
+@media (max-height: 768px) {
+  .left-songInfo .img{
+    width: calc(50vh - 50px) ;
+  }
+}
+
+
